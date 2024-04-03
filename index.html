@@ -1,247 +1,153 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Title -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bowo Trans</title>
-    <link rel="icon" href="assets/logo.jpg" type="image/x-icon">
 
-    <!-- BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
-    <!-- My Style -->
+    <!-- ===CSS=== -->
     <link rel="stylesheet" href="style.css">
 
-    <!-- Font -->
+    <!-- ===GOOGLE FONTS=== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  </head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- ===BOOTSTRAP=== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
-  <body>
+    <!-- ===BOOTSTRAP ICONS=== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- ===FAVICON=== -->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+
+</head>
+<body>
+    
     <header>
-        <nav class="navbar navbar-expand-lg shadow-lg">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container">
-              <a class="navbar-brand bold" href="#">
-                <img src="assets/logo.jpg" alt="Logo" width="80" height="70" class="d-inline-block align-text-center">
-                <span class="primary">BOWO</span> <span class="secondary">TRANS</span></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                    Bowo Trans
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto">
-                  <li class="nav-item mx-1">
-                    <a class="nav-link active bold" aria-current="page" href="#">BERANDA</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">LAYANAN</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">TENTANG KAMI</a>
-                  </li>
-                </ul>
-                <div>
-                    <button class="button bold rounded">HUBUNGI</button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                  <a class="nav-link" href="#">Layanan</a>
+                  <a class="nav-link" href="#">Tentang Kami</a>
+                  <a class="nav-link" href="#">Kontak</a>
                 </div>
               </div>
             </div>
         </nav>
+
+        <main class="container-sm">
+            <div class="row">
+                <div class="col-md text-white mb-5">
+                    <h1 class="fw-bold">Menyediakan Armada untuk Setiap Perjalanan Anda.</h1>
+                    <p><b>Bowo Trans</b> hadir untuk pengalaman perjalanan tanpa ribet.</p>
+                    <button class="btn btn-primary">Hubungi Kami</button>
+                </div>
+                <div class="col">
+                    <img src="assets/rental-hiace.png" alt="hiace-bowo-trans" class="img-fluid">
+                </div>
+            </div>
+        </main>
     </header>
 
-<!-- HERO -->
-    <main>
-        <div class="hero position-relative">
-            <div class="container text-center h-100">
-                <div class="row align-items-center h-100">
-                    <div class="col-lg">
-                        <h1 class="fs-1 bold white">Menyediakan Armada untuk Setiap Perjalanan Anda.</h1>
-                        <p class="fs-6 white mt-3">Selamat datang di Bowo Trans, destinasi terbaik untuk pengalaman     perjalanan tanpa ribet. 
-                        Dengan armada terbaru dan layanan pelanggan yang prima, kami hadir untuk memberikan kebebasan Anda dalam menjelajahi kota.
-                        Temukan kenyamanan dan keamanan bersama kami, di mana setiap perjalanan adalah petualangan yang menyenangkan!</p>
-                    </div>
-                    <div class="col-lg">
-                        <img src="assets/img-car/hiace-commuter.png" class="img-fluid hero-img" alt="HERO">
-                    </div>
-                </div>
+    <section class="layanan container-sm text-center">
+        <h1 class="fw-bold">Layanan Kami</h1>
+        <p>Kami hadir menjadi solusi bagi anda</p>
+
+        <div class="row mt-5">
+            <div class="col-sm d-flex flex-column justify-content-center align-items-center p-4 border m-2">
+                <img src="assets/rental-car.png" alt="rental-car-icon">
+                <h5 class="mt-4 fw-bold">Rental Mobil</h5>
+                <p style="width: 313px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere et neque iaculis dapibus.</p>
             </div>
-            <div class="aksen">
-                <img src="assets/aksen-2.png" class="img-fluid position-absolute top-0">
-                <img src="assets/aksen-1.png" class="img-fluid position-absolute top-0 end-0">
+            <div class="col-sm d-flex flex-column justify-content-center align-items-center p-4 border m-2">
+                <img src="assets/list.png" alt="rental-car-icon">
+                <h5 class="mt-4 fw-bold">Paket Wisata</h5>
+                <p style="width: 313px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere et neque iaculis dapibus.</p>
+            </div>
+            <div class="col-sm d-flex flex-column justify-content-center align-items-center p-4 border m-2">
+                <img src="assets/box-car 1.png" alt="rental-car-icon">
+                <h5 class="mt-4 fw-bold">Jasa Angkut</h5>
+                <p style="width: 313px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus posuere et neque iaculis dapibus.</p>
             </div>
         </div>
-    </main>
-<!-- HERO END -->
+    </section>
 
-<!-- JQUERY -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-
-<script>
-    $(document).ready(function() {
-      // Array dengan data perubahan untuk teks dan gambar
-      var data = [
-        {
-          title: "Pesan Sekarang dan Nikmati Perjalanan Tanpa Ribet",
-          description: "Dapatkan pengalaman perjalanan terbaik dengan armada terbaru kami. Pesan sekarang!",
-          imgSrc: "assets/img-car/hiace-commuter.png"
-        },
-        {
-          title: "Jelajahi Kota dengan Kenyamanan Bersama Bowo Trans",
-          description: "Temukan kenyamanan dan keamanan bersama kami. Setiap perjalanan adalah petualangan yang menyenangkan!",
-          imgSrc: "assets/img-car/hiace-premio.png"
-        },
-        {
-          title: "Menyediakan Armada untuk Setiap Perjalanan Anda.",
-          description: "Bowo Trans, destinasi terbaik untuk pengalaman perjalanan tanpa ribet.",
-          imgSrc: "assets/img-car/innova-reborn.png"
-        },
-        // Tambahkan data lain jika diperlukan
-      ];
-  
-      var currentIndex = 0;
-  
-      function updateContent() {
-        // Perbarui teks dan gambar dengan data yang sesuai
-        $(".hero h1").text(data[currentIndex].title);
-        $(".hero p").text(data[currentIndex].description);
-        $(".hero-img").attr("src", data[currentIndex].imgSrc);
-  
-        // Pergantian otomatis setiap 5 detik
-        currentIndex = (currentIndex + 1) % data.length;
-        setTimeout(updateContent, 5000);
-      }
-  
-      // Panggil fungsi pertama kali untuk memulai
-      updateContent();
-    });
-  </script>
-<!-- JQUERY END -->
-
-<!-- CAR LIST -->
-    <section class="car-list position-relative">
-           <div class="container-fluid text-center">
-            <div class="row justify-content-evenly">
-                <div class="col-2 box p-2 mt-4 rounded shadow-sm">
-                    <img src="assets/img-car/hiace-premio.png" alt="Hiace Premio" class="img-fluid car">
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <h1 class="bold white">HIACE PREMIO</h1>
+    <section class="package">
+        <div class="container-sm text-center">
+            <h1 class="fw-bold text-white">Rekomendasi Paket Wisata</h1>
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="assets/bali.png" class="card-img-top" alt="bali">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">WONDERFUL BALI</h5>
+                          <p class="card-text text-danger">3 Day 2 Night</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-2 box p-2 mt-4 rounded shadow-sm">
-                    <img src="assets/img-car/hiace-commuter.png" alt="Hiace Commuter" class="img-fluid car">
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <h1 class="bold white">HIACE COMMUTER</h1>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="assets/lombok.png" class="card-img-top" alt="bali">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">TOUR LOMBOK</h5>
+                          <p class="card-text text-danger">4 Day 3 Night</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-2 box p-2 mt-4 rounded shadow-sm">
-                    <img src="assets/img-car/elf-long.png" alt="Elf Long" class="img-fluid car">
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <h1 class="bold white">ELF LONG</h1>
-                    </div>
-                </div>
-                <div class="col-2 box p-2 mt-4 rounded shadow-sm">
-                    <img src="assets/img-car/innova-reborn.png" alt="Innova Reborn" class="img-fluid car">
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <h1 class="bold white">INNOVA REBORN</h1>
-                    </div>
-                </div>
-                <div class="col-2 box p-2 mt-4 rounded shadow-sm">
-                    <img src="assets/img-car/avanza.png" alt="Avanza" class="img-fluid car">
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <h1 class="bold white">AVANZA</h1>
-                    </div>
-                </div>
-                <div class="col-2 box p-2 mt-4 mb-4 rounded shadow-sm">
-                    <img src="assets/img-car/granmax.png" alt="Gran Max" class="img-fluid car">
-                    <div class="overlay"></div>
-                    <div class="content">
-                        <h1 class="bold white">GRAN MAX</h1>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="assets/jogja.png" class="card-img-top" alt="bali">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">JOGJA ISTIMEWA</h5>
+                          <p class="card-text text-danger">One Day Tour</p>
+                        </div>
                     </div>
                 </div>
             </div>
-    </section>
-<!-- CAR LIST END -->
-
-<!-- LAYANAN -->
-    <section class="layanan">
-        <div class="container-fluid text-center">
-            <div class="row justify-content-evenly p-5">
-                <div class="col-lg-3 box-layanan border border-3">
-                    <img src="assets/rental-car.png" alt="rental-car-icon" class="img-fluid icon pt-3">
-                    <h4 class="bold black pt-4">Rental Mobil</h4>
-                    <p class="fs-6 pb-2">Layanan penyewaan mobil yang memberikan kebebasan dan fleksibilitas untuk menjelajahi tempat tujuan dengan kenyamanan.</p>
+            <div class="row mt-5">
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="assets/dieng.png" class="card-img-top" alt="bali">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">DIENG PLATEAU</h5>
+                          <p class="card-text text-danger">One Day Tour</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 box-layanan border border-3">
-                    <img src="assets/list.png" alt="rental-car-icon" class="img-fluid icon pt-3">
-                    <h4 class="bold black pt-4">Paket Wisata</h4>
-                    <p class="fs-6 pb-2">Pengalaman perjalanan yang disiapkan secara menyeluruh, mencakup akomodasi, transportasi, dan kegiatan, untuk memastikan liburan tanpa kesulitan.</p>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="assets/bromo.png" class="card-img-top" alt="bali">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">BROMO</h5>
+                          <p class="card-text text-danger">2 Day 1 Night</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-lg-3 box-layanan border border-3">
-                    <img src="assets/route.png" alt="rental-car-icon" class="img-fluid icon pt-3">
-                    <h4 class="bold black pt-4">Antar Jemput</h4>
-                    <p class="fs-6 pb-2">Layanan transportasi pintar yang menyediakan perjalanan yang aman dan nyaman dari titik A ke titik B, menawarkan kenyamanan tanpa repot.</p>
-                </div>
-                <div class="col-lg-3 box-layanan border border-3">
-                    <img src="assets/box-car.png" alt="rental-car-icon" class="img-fluid icon pt-3">
-                    <h4 class="bold black pt-4">Jasa Angkut</h4>
-                    <p class="fs-6 pb-2"> Solusi transportasi yang handal untuk memindahkan barang atau peralatan dengan efisien dan tepat waktu, memberikan keandalan dalam pengiriman.</p>
+                <div class="col-sm">
+                    <div class="card">
+                        <img src="assets/karimunjawa.png" class="card-img-top" alt="bali">
+                        <div class="card-body">
+                          <h5 class="card-title fw-bold">KARIMUNJAWA</h5>
+                          <p class="card-text text-danger">3 Day 2 Night</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-<!-- LAYANAN END -->
 
-<!-- HUBUNGI -->
-    <section id="hubungi" class="hubungi">
-        <div class="container h-100">
-            <div class="row justify-content-around align-items-center h-100">
-              <div class="col-md-6 p-5">
-                <form action="mailto:fioanakgaul@gmail.com" method="post" enctype="text/plain">
-                  <div class="mb-3">
-                    <label for="inputEmail" class="form-label bold black">Email:</label>
-                    <input type="email" class="form-control" id="inputEmail" name="email" required>
-                  </div>
-                  <div class="mb-5">
-                    <label for="inputMessage" class="form-label bold black">Pesan:</label>
-                    <textarea class="form-control" id="inputMessage" name="message" rows="4" required></textarea>
-                  </div>
-                  <button type="submit" class="button bold rounded mx-auto d-block">Kirim</button>
-                </form>
-            </div>
-            <div class="col-md-6 text-center p-5">
-                <h1 class="bold black">HUBUNGI KAMI MELALUI EMAIL!</h1>
-                <p class="fs-6 black">Untuk pertanyaan, informasi lebih lanjut, atau kerjasama, jangan ragu untuk menghubungi kami. Kami siap membantu dan menjawab setiap kebutuhan Anda dengan cepat dan efisien. Terima kasih atas kepercayaan Anda kepada kami!</p>
-            </div>
-        </div>
-    </section>
-<!-- HUBUNGI END -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-<!-- FOOTER -->
-    <footer class="footer">
-        <div class="container-fluid row text-center border-top">
-            <div class="col-lg text pt-3 mt-2">
-                <h1 class="h-footer bold black">Bowo Trans</h1>
-                <p class="p-footer black">Majegan RT 06 / RW 01, Wonosari, Trucuk, Klaten 57482</p>
-            </div>
-            <a href="https://www.instagram.com/alifionm_/" target="_blank" class="col-lg pt-3 mt-2">
-                <h1 class="h-footer bold black">Created By</h1>
-                <p class="p-footer black">@Alifionm</p>
-            </a>
-            <div class="col-lg pt-3">
-                <h1 class="h-footer bold black">Visi dan Misi</h1>
-                <p class="p-footer black">Kami berusaha menjadi pilihan utama dalam mobilitas yang inovatif dan berkelanjutan, menjembatani setiap perjalanan dengan kenyamanan.</p>
-            </div>
-        </div>
-    </footer>
-<!-- FOOTER END -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-
-  </body>
+</body>
 </html>
